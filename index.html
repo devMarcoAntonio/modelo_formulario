@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>Formulário de SAC</title>
+</head>
+
+<body>
+     <div class="conteiner "> 
+         <div class="header"><h1 class="paragrafo">Fale <span class="textocolorido">conosco</span> </h1>
+            <hr>
+        </div>
+         <!--coloca aqui a linha-->
+         <div class="content first-content">
+             <div class="first-column"><!--primeira coluna-->
+            <div class="texto">
+                <h2 class="title paragrafo">Nossos </h2>
+                <h2><span class="textocolorido">Contatos</span></h2>
+                <hr>
+            </div>
+                <!--coloca aqui a linha-->
+                <p class="description">  
+                    <img src="./img/telephone.png"/>
+                   telefone</p>
+                <p class="description"> 
+                    <img src="./img/mail-send.png"/>
+                   E-mail</p>
+                <p class="description"> 
+                    <img src="./img/whatsapp.png"/>
+                  </svg> whatsapp</p>
+             </div>
+          <div class="second-column">
+          <form class="formsac"><!--coluna do formulario-->
+            <div class="header1">
+                <h2>Serviço de atendimento ao consumidor <span class="textocolorido"> SAC</span> </h2>
+           </div>            
+            <div class="row">
+                <input type="text" id="txtNome" name="txtName" placeholder="nome completo">
+                <input type="email" id="txtemail" name="txtemail" placeholder="email">
+            </div>
+            
+            <div class="row">
+                <input type="tel" id="txtcelular" name="txtcelular" placeholder="celular">
+                <input type="tel" id="txttelefone" name="txttelefone" placeholder="telefone">
+            </div>
+            
+            <div class="row row-high">
+                <textarea type="text" id="txtmensagem" name="txtmensagem" placeholder="mensagem" maxlength="300"></textarea>
+            </div>
+            
+            <div class="row">
+                <input type="submit" id="btnenviar" name="btnenviar" value="Enviar"><br><br>
+            </div>  
+        </form>
+       </div>
+     </div>  <!--coluna formulario--> 
+    </div>
+</body>
+</html>
