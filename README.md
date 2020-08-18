@@ -1,8 +1,4 @@
 <h1><img src="./img/apresentação.png"></h1>
-___
- 
- # Índice
-
 
  ___
  # Sobre
